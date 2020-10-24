@@ -1,0 +1,125 @@
+@import "../../base";
+
+.who {
+  padding-top: 100px;
+  margin-top: -100px;
+
+  &__text {
+    max-width: 850px;
+    margin-bottom: $pd-lg;
+
+    @media (max-width: $mobile) {
+      margin-bottom: $pd-xs;
+    }
+  }
+
+  &__bullets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: $pd-lg;
+    color: $text-darker;
+    grid-gap: 50px;
+
+    @media (max-width: $mobile) {
+      grid-gap: 0px;
+      margin-bottom: $pd-xs;
+    }
+
+    &__bullet {
+      padding-bottom: 50px;
+      display: flex;
+      align-items: center;
+
+      @media (max-width: $mobile) {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+          content: "";
+          height: 2px;
+          width: 10px;
+          background: $accent;
+          position: absolute;
+          left: -0px;
+          top: 15px;
+        }
+      }
+
+      &--number {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25px;
+        flex-shrink: 0;
+        color: $text-white;
+        font-weight: 500;
+        font-size: 1.4rem;
+        position: relative;
+
+        @media (max-width: $mobile) {
+          color: $text-darker;
+          display: none;
+        }
+
+        .bullet {
+          width: 60px;
+          height: 50px;
+          position: absolute;
+          top: -50px;
+          left: -15px;
+
+          @media (max-width: $mobile) {
+            display: none;
+          }
+
+          &.bullet1 {
+            background: $gray-1;
+            clip-path: polygon(76% 0, 0 51%, 100% 100%);
+          }
+          &.bullet2 {
+            background: $gray-2;
+            clip-path: polygon(100% 0, 0 20%, 45% 100%);
+          }
+          &.bullet3 {
+            background: $gray-3;
+            clip-path: polygon(100% 50%, 14% 0, 0 100%);
+          }
+        }
+        .number {
+          width: 60px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          z-index: 2;
+
+          @media (max-width: $mobile) {
+            justify-content: flex-start;
+          }
+        }
+      }
+    }
+
+    @media (max-width: $mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__beforeGartner {
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: $pd-lg;
+
+    @media (max-width: $mobile) {
+      margin-bottom: $pd-xs;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  }
+}

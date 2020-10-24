@@ -1,0 +1,31 @@
+@mixin randomMove($x, $y, $num) {
+  @keyframes eagle#{$num}-a {
+    0% {
+      transform: translateX($x + vw) translateY($y + vw);
+    }
+    40% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+}
+
+.svgBg {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  #eagle {
+    overflow: visible;
+
+    @for $i from 1 to 250 {
+      path:nth-of-type(#{$i}) {
+        @include randomMove(random(600) - 300, random(600) - 300, $i);
+        animation: eagle#{$i}-a 10s;
+      }
+    }
+  }
+}
+
+#eagle {
+  top: -200px;
+}

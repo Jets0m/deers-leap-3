@@ -1,0 +1,135 @@
+@import "../../base";
+
+.how {
+  padding-top: 100px;
+  margin-top: -100px;
+
+  &__text {
+    max-width: 850px;
+    margin-bottom: $pd-lg;
+
+    @media (max-width: $mobile) {
+      margin-bottom: $pd-xs;
+    }
+  }
+
+  &__bullets {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: $pd-lg;
+    color: $text-darker;
+    grid-gap: 50px;
+
+    @media (max-width: $mobile) {
+      margin-bottom: $pd-xs;
+    }
+
+    &__bullet {
+      padding-bottom: 50px;
+      display: flex;
+      position: relative;
+      padding-left: 25px;
+
+      @media (max-width: $mobile) {
+        &::before {
+          content: "";
+          height: 2px;
+          width: 10px;
+          background: $accent;
+          position: absolute;
+          left: -0px;
+          top: 25px;
+        }
+      }
+
+      @media (max-width: $mobile) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      &--number {
+        display: flex;
+        justify-content: center;
+        margin-right: 25px;
+        flex-shrink: 0;
+        color: $text-white;
+        font-weight: 500;
+        font-size: 1.4rem;
+        position: relative;
+
+        @media (max-width: $mobile) {
+          display: none;
+        }
+
+        .bullet {
+          width: 60px;
+          height: 50px;
+          position: absolute;
+          top: -40px;
+          left: -15px;
+
+          @media (max-width: $mobile) {
+            display: none;
+          }
+
+          &.bullet1 {
+            background: $gray-1;
+            clip-path: polygon(76% 0, 0 51%, 100% 100%);
+          }
+          &.bullet2 {
+            background: $gray-2;
+            clip-path: polygon(100% 0, 0 20%, 45% 100%);
+          }
+        }
+        .number {
+          width: 60px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          position: relative;
+          z-index: 2;
+          align-items: center;
+          margin-top: 10px;
+
+          @media (max-width: $mobile) {
+            justify-content: flex-start;
+          }
+        }
+      }
+
+      a {
+        line-height: 30px !important;
+        font-size: 1.6rem !important;
+        text-transform: none;
+        font-weight: 400;
+      }
+
+      ul {
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+    }
+  }
+  &__skillsConnection {
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: $pd-lg;
+
+    @media (max-width: $mobile) {
+      margin-bottom: $pd-xs;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    a {
+      font-family: $font-secondary;
+      font-weight: 400;
+      letter-spacing: 4px;
+      display: block;
+      width: fit-content;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import "../../base";
+
+.contact {
+  padding-top: 100px;
+  margin-top: -100px;
+  margin-bottom: 400px;
+
+  @media (min-width: $retina) {
+    margin-bottom: 40vh !important;
+  }
+
+  @media (max-width: $mobile) {
+    margin-bottom: 40vh !important;
+  }
+
+  &__text {
+    max-width: 850px;
+    margin-bottom: $pd-lg;
+
+    a {
+      display: block;
+      font-weight: 400;
+      letter-spacing: 4px;
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../base";
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin-top: 50px;
+    position: relative;
+    left: 0;
+    opacity: 1;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    pointer-events: none;
+    position: relative;
+    left: 0;
+    opacity: 1;
+
+    @media (max-width: $mobile) {
+      display: none;
+    }
+
+    &--triangle {
+      filter: saturate(0.8);
+      width: 600px;
+      height: 70vh;
+      clip-path: polygon(72% 0, 0 15%, 100% 100%);
+      margin-right: 0px;
+
+      @media (max-width: $tablet) {
+        width: 400px;
+        height: 60vh;
+      }
+
+      @media (min-width: $retina) {
+        height: 30vh;
+      }
+
+      img {
+        width: 110%;
+        height: 105%;
+        object-fit: cover;
+        position: absolute;
+        left: -10%;
+        top: -13%;
+      }
+    }
+  }
+}
