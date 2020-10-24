@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04f7b2bc.chunk.css",
+    "main.js": "/static/js/main.e6b2ad36.chunk.js",
+    "main.js.map": "/static/js/main.e6b2ad36.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1d3a0fe4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1d3a0fe4.js.map",
+    "static/js/2.36a1f9b3.chunk.js": "/static/js/2.36a1f9b3.chunk.js",
+    "static/js/2.36a1f9b3.chunk.js.map": "/static/js/2.36a1f9b3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1016f7e9856e307798d5e33fcac2096b.js": "/precache-manifest.1016f7e9856e307798d5e33fcac2096b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.04f7b2bc.chunk.css.map": "/static/css/main.04f7b2bc.chunk.css.map",
+    "static/js/2.36a1f9b3.chunk.js.LICENSE.txt": "/static/js/2.36a1f9b3.chunk.js.LICENSE.txt",
+    "static/media/about-photo.jpg": "/static/media/about-photo.b42c6b2e.jpg",
+    "static/media/deer.e3479ed3.svg": "/static/media/deer.e3479ed3.svg",
+    "static/media/logo-blue.svg": "/static/media/logo-blue.2a88fbe6.svg",
+    "static/media/logo-insight.svg": "/static/media/logo-insight.6be0aef5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d3a0fe4.js",
+    "static/js/2.36a1f9b3.chunk.js",
+    "static/css/main.04f7b2bc.chunk.css",
+    "static/js/main.e6b2ad36.chunk.js"
+  ]
+}
