@@ -61,7 +61,7 @@ function Hero() {
                         >
                             <div className="hero__image">
                                 <div className="hero__image--triangle">
-                                    <img src={Profile} alt="Andrew Butler" className="layer"  data-speed="1"/>
+                                    <img src={Profile} alt="Photo of Andrew Butler from Deers Leap Insight" className="layer"  data-speed="1"/>
                                 </div>
                             </div>
                         </Tween>

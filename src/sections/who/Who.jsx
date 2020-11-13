@@ -51,8 +51,8 @@ function Who() {
                             paused
                         >
                             <div className="who__text" style={{opacity: 0}}>
-                                <h1>I worked as an <span>analyst</span> at <span>Gartner</span> for over <span>20 years</span> before creating <span>Deers-Leap Insight</span> in 2018.
-                                </h1>
+                                <h2>I worked as an <span>analyst</span> at <span>Gartner</span> for over <span>20 years</span> before creating <span>Deers-Leap Insight</span> in 2018.
+                                </h2>
                                 <p>After joining as a Research Director in 1997, my focus on data centre technologies developed over the next two decades. Key achievements include:
                                 </p>
                             </div>
@@ -145,7 +145,7 @@ function Who() {
                             paused
                         >
                             <div className="who__beforeGartner" style={{opacity: 0}}>
-                                <h1><span>Before</span> Gartner…</h1>
+                                <h2><span>Before</span> Gartner…</h2>
                                     <p>Prior to joining Gartner in 1997, I worked for Hewlett-Packard in both the UK and Germany for 14 years. After joining as a systems engineer in 1983, I held a number of software and hardware marketing positions, and as sales training manager for Europe. Before 1983, I underwent a classic programming, systems analysis and IT management “apprenticeship”, working for both software vendors (Pentagram, Altergo) and large corporations (Nielsen Research, Schwarzkopf and Boehringer Ingelheim).</p>
                                 </div>
                         </Tween>

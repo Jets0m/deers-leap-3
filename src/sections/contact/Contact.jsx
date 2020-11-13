@@ -48,7 +48,7 @@ function Contact() {
                                 paused
                             >
                                 <div className="contact__text" style={{opacity: 0}}>
-                                    <h1>I am located in <span>Wokingham</span>, about <span>30 miles west of London</span>. You can <span>reach me via the following</span>:</h1>
+                                    <h2>I am located in <span>Wokingham</span>, about <span>30 miles west of London</span>. You can <span>reach me via the following</span>:</h2>
                                     <a href="mailto:andrew.butler@deers-leap.com">andrew.butler@deers-leap.com</a>
                                     <a href="tel:07710126565">+44 710 126565</a>
                                     

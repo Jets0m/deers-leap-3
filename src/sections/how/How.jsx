@@ -51,7 +51,7 @@ function How() {
                                 paused
                             >
                                 <div className="how__text" style={{opacity: 0}}>
-                                    <h1>This differentiated <span>insight</span> provides me with the scope to <span>deliver consultancy value</span> on two very different axes:</h1>
+                                    <h2>This differentiated <span>insight</span> provides me with the scope to <span>deliver consultancy value</span> on two very different axes:</h2>
                                 </div>
                             </Tween>
                             )}
@@ -90,7 +90,7 @@ function How() {
                                         <span className="number"></span>
                                     </span>
                                     <div className="text">
-                                    <h1><span>Supercharging analyst engagement</span></h1>
+                                    <h2><span>Supercharging analyst engagement</span></h2>
                                     <p>In this capacity, I work exclusively through <a href="https://theskillsconnection.com/" target="_blank" rel="noopener noreferrer">The Skills Connection</a>, who are a team of former senior Gartner analysts and executives offering knowledge and expertise to help technology companies improve their relationships with the analyst community and better engage with the market. The Skills Connection works as an extension to the vendor’s own analyst relations and marketing teams to help prepare for analyst assessments, deliver briefings and increase the probability of marketing and sales engagement success. In this capacity, the Skills Connection analysts deliver three key attributes:</p>
                                     <ul>
                                         <li>We understand what the analysts want to see, because we were all senior analysts ourselves.</li>
@@ -123,7 +123,7 @@ function How() {
                                             <span className="number"></span>
                                         </span>
                                         <div className="text">
-                                        <h1><span>Analyzing the market</span></h1>
+                                        <h2><span>Analyzing the market</span></h2>
                                         <p>Twenty plus years as an analyst qualifies me to advise vendors in a variety of additional ways:</p>
                                         <ul>
                                             <li>Analyst contact is usually fleeting – you can’t do much in 30 minutes! I provide context to analyst interactions, to help vendors “analyze the analyst”, their message and the market dynamics.</li>
@@ -156,7 +156,7 @@ function How() {
                                 paused
                             >
                                  <div className="how__skillsConnection" style={{opacity: 0}}>
-                                    <h1><span>More information</span> about the ways that <span>The&nbsp;Skills&nbsp;Connection</span> can <span>help your business</span> can be found at: </h1>
+                                    <h2><span>More information</span> about the ways that <span>The&nbsp;Skills&nbsp;Connection</span> can <span>help your business</span> can be found at: </h2>
                                     <a href="https://theskillsconnection.com/" target="_blank">www.theskillsconnection.com</a>
                                 </div>
                             </Tween>
