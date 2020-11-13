@@ -22,7 +22,7 @@ function Hero() {
                     offset={-250}
                     pin
                 >
-                    
+                     
                     {(progress) => (
                         <Tween            
                             to={{
